@@ -11,7 +11,8 @@
 		"vscode": {
 			"extensions": [
 				"ms-azuretools.vscode-docker",
-				"Yseop.vscode-yseopml"
+				"Yseop.vscode-yseopml",
+				"ms-toolsai.jupyter"
 			]
 		}
 	}
