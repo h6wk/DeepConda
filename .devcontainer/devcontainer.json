@@ -1,7 +1,8 @@
+
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/miniconda
 {
-	"name": "DL Miniconda (Python 3)",
+	"name": "DeepConda (Miniconda, Python 3)",
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
@@ -9,7 +10,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"Yseop.vscode-yseopml"
 			]
 		}
 	}
