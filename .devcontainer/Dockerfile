@@ -8,6 +8,8 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 RUN conda env create -f /tmp/conda-tmp/environment_3_9.yml
 RUN rm -rf /tmp/conda-tmp
 
+RUN sudo chown -R vscode:vscode /opt/conda/envs/ai_python_3_9/
+
 RUN conda init --all
 
 # [Optional] Uncomment to install a different version of Python than the default
