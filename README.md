@@ -36,6 +36,4 @@ Bla bla
 
 Add to dockerfile:
 
-sudo chown -R vscode:vscode /opt/conda/envs/ai_python_3_9/
-conda install -n ai_python_3_9 ipykernel --update-deps --force-reinstall
 pip install watermark
