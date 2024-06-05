@@ -2,5 +2,7 @@ name: ai_python_3_9
 dependencies:
   - python=3.9
   - numpy
-  - pandas
-  - ipykernel
+#  - ipykernel
+#  - pandas
+# Packages installed:
+# /opt/conda/lib/python3.9/site-packages/numpy
