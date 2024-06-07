@@ -33,6 +33,7 @@ Watermark is an IPython magic extension for printing date and time stamps, versi
 
 Intallation ``pip install watermark``
 
+The environment can be checked by: [checker](jupyter_check_environment.ipynb)
 
 ## Perceptron
 

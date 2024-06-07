@@ -8,6 +8,7 @@ dependencies:
   - ipykernel
   - pandas
   - conda-forge::lightning
+  - conda-forge::jupyterlab
 # Packages installed:
 # /opt/conda/lib/python3.9/site-packages/numpy
 # /opt/conda/lib/python3.9/site-packages/ipykernel
