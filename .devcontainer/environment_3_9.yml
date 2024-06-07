@@ -1,10 +1,15 @@
+### Dependency definition format:
+### dependencies:
+###   - chanelname::modulename=X.Y.Z
 name: ai_python_3_9
 dependencies:
   - python=3.9
   - numpy
   - ipykernel
   - pandas
+  - conda-forge::lightning
 # Packages installed:
 # /opt/conda/lib/python3.9/site-packages/numpy
 # /opt/conda/lib/python3.9/site-packages/ipykernel
 # /opt/conda/lib/python3.9/site-packages/pandas
+# /opt/conda/lib/python3.9/site-packages/lightning

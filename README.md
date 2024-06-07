@@ -24,16 +24,16 @@ Save the installed packages into the requirements file: **pip freeze > requireme
 
 ### Python packages
 
-Install pytorch: **pip install pytorch-lightning**
+PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
+
+Install pytorch with pip: ``pip install pytorch-lightning``\
+Install using conda: ``conda install lightning -c conda-forge``
+
+Watermark is an IPython magic extension for printing date and time stamps, version numbers, and hardware information.
+
+Intallation ``pip install watermark``
 
 
 ## Perceptron
 
 Bla bla
-
-
-# TODO:
-
-Add to dockerfile:
-
-pip install watermark
