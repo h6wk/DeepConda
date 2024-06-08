@@ -33,20 +33,32 @@ Save the installed packages into the requirements file: **pip freeze > requireme
 Install pytorch with pip: ``pip install pytorch-lightning``\
 Install using conda: ``conda install lightning -c conda-forge``
 
-*Watermark* is an IPython magic extension for printing date and time stamps, version numbers, and hardware information.
+---
 
-*Matplotlib* is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
+*Watermark* is an IPython magic extension for printing date and time stamps, version numbers, and hardware information.
 
 Intallation ``pip install watermark``
 
+---
+
+*Matplotlib* is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
+
+---
+
 *NumPy* is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+
+---
 
 *Pandas* is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
-
+---
 
 The environment can be checked by: [checker](jupyter_check_environment.ipynb)
 
 ## Perceptron
 
-Bla bla
+See the implemented jupyter model: [perceptron](./perceptron.ipynb).
+
+# References
+
+[1] https://lightning.ai/courses/deep-learning-fundamentals/
