@@ -1,4 +1,8 @@
-# Deep learning tutorial
+# Deep learning
+
+[TOC]
+
+# Introduction
 
 ## Developer environment
 Using VS code developer containers. The installed extensions are listed in the devcontainer.json. The developer container (see Dockerfile) uses the miniconda base image from Microsoft. 
@@ -24,14 +28,22 @@ Save the installed packages into the requirements file: **pip freeze > requireme
 
 ### Python packages
 
-PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
+*PyTorch Lightning* is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
 
 Install pytorch with pip: ``pip install pytorch-lightning``\
 Install using conda: ``conda install lightning -c conda-forge``
 
-Watermark is an IPython magic extension for printing date and time stamps, version numbers, and hardware information.
+*Watermark* is an IPython magic extension for printing date and time stamps, version numbers, and hardware information.
+
+*Matplotlib* is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
 
 Intallation ``pip install watermark``
+
+*NumPy* is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+
+*Pandas* is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+
+
 
 The environment can be checked by: [checker](jupyter_check_environment.ipynb)
 
