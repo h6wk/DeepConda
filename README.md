@@ -62,3 +62,4 @@ See the implemented jupyter model: [perceptron](./perceptron.ipynb).
 # References
 
 [1] https://lightning.ai/courses/deep-learning-fundamentals/
+[2] Github repo of the Perceptrion model: https://github.com/rasbt/stat453-deep-learning-ss21/blob/main/L03/code/perceptron-pytorch.ipynb
