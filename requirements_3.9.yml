@@ -8,7 +8,7 @@ async-lru @ file:///croot/async-lru_1699554519285/work
 attrs @ file:///croot/attrs_1695717823297/work
 Babel @ file:///croot/babel_1671781930836/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-beautifulsoup4 @ file:///croot/beautifulsoup4-split_1681493039619/work
+beautifulsoup4 @ file:///croot/beautifulsoup4-split_1718029820055/work
 bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
 boltons @ file:///croot/boltons_1677628692245/work
 Bottleneck @ file:///croot/bottleneck_1707864210935/work
@@ -58,7 +58,7 @@ jupyter_client @ file:///croot/jupyter_client_1699455897726/work
 jupyter_core @ file:///croot/jupyter_core_1698937308754/work
 jupyter_server @ file:///croot/jupyter_server_1699466442171/work
 jupyter_server_terminals @ file:///croot/jupyter_server_terminals_1686870725608/work
-jupyterlab @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_1716470278966/work
+jupyterlab @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_1718030272761/work
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab_server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server-split_1716433953404/work
 kiwisolver @ file:///croot/kiwisolver_1672387140495/work
@@ -68,7 +68,7 @@ lightning-utilities @ file:///croot/lightning-utilities_1694002419919/work
 MarkupSafe @ file:///croot/markupsafe_1704205993651/work
 matplotlib @ file:///croot/matplotlib-suite_1713336378214/work
 matplotlib-inline @ file:///opt/conda/conda-bld/matplotlib-inline_1662014470464/work
-menuinst @ file:///croot/menuinst_1716404372721/work
+menuinst @ file:///croot/menuinst_1718132535249/work
 mistune @ file:///opt/conda/conda-bld/mistune_1661496219659/work
 mpmath @ file:///croot/mpmath_1690848262763/work
 nbclient @ file:///croot/nbclient_1698934205032/work
@@ -125,7 +125,7 @@ sympy @ file:///croot/sympy_1701397643339/work
 terminado @ file:///croot/terminado_1671751832461/work
 tinycss2 @ file:///croot/tinycss2_1668168815555/work
 tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
-torch @ file:///croot/pytorch-select_1707782759820/work
+torch @ file:///croot/pytorch-select_1717607455294/work
 torchmetrics @ file:///croot/torchmetrics_1717742023044/work
 tornado @ file:///croot/tornado_1696936946304/work
 tqdm @ file:///croot/tqdm_1716395931952/work
