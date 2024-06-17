@@ -8,6 +8,7 @@
 		"dockerfile": "Dockerfile"
 	},
 	//"runArgs": ["--gpus=all"],
+	//"runArgs": ["--device=/dev/dxg -v /usr/lib/wsl:/usr/lib/wsl"],
 	"customizations": {
 		"vscode": {
 			"extensions": [

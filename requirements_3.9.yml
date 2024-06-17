@@ -20,8 +20,8 @@ comm @ file:///croot/comm_1709322850197/work
 conda @ file:///croot/conda_1715635703388/work
 conda-content-trust @ file:///croot/conda-content-trust_1714483159009/work
 conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1706733287605/work/src
-conda-package-handling @ file:///croot/conda-package-handling_1714483155348/work
-conda_package_streaming @ file:///croot/conda-package-streaming_1690987966409/work
+conda-package-handling @ file:///croot/conda-package-handling_1718138267740/work
+conda_package_streaming @ file:///croot/conda-package-streaming_1718136078615/work
 contourpy @ file:///croot/contourpy_1700583582875/work
 cryptography @ file:///croot/cryptography_1714660666131/work
 cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
@@ -63,7 +63,7 @@ jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_16014907206
 jupyterlab_server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server-split_1716433953404/work
 kiwisolver @ file:///croot/kiwisolver_1672387140495/work
 libmambapy @ file:///croot/mamba-split_1714483352891/work/libmambapy
-lightning @ file:///home/conda/feedstock_root/build_artifacts/lightning_1716420433840/work
+lightning @ file:///home/conda/feedstock_root/build_artifacts/lightning_1718409070664/work
 lightning-utilities @ file:///croot/lightning-utilities_1694002419919/work
 MarkupSafe @ file:///croot/markupsafe_1704205993651/work
 matplotlib @ file:///croot/matplotlib-suite_1713336378214/work
@@ -81,7 +81,7 @@ numexpr @ file:///croot/numexpr_1696515281613/work
 numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp39-cp39-linux_x86_64.whl#sha256=b69ac3eb7538c5a224df429dc49031914fb977825ee007f2c77a13f7aa6cd769
 overrides @ file:///croot/overrides_1699371140756/work
 packaging @ file:///croot/packaging_1710807400464/work
-pandas @ file:///croot/pandas_1709590491089/work/dist/pandas-2.2.1-cp39-cp39-linux_x86_64.whl#sha256=c2fe2574e63acef055e68e1e22d04943804291b7fe3a39b832edfd1b87570954
+pandas @ file:///croot/pandas_1718308974269/work/dist/pandas-2.2.2-cp39-cp39-linux_x86_64.whl#sha256=484b9c988a0aaf85ef9256891a79639c95dfb3cacfd316d465b4f319dfef8d07
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
@@ -129,7 +129,7 @@ torch @ file:///croot/pytorch-select_1717607455294/work
 torchmetrics @ file:///croot/torchmetrics_1717742023044/work
 tornado @ file:///croot/tornado_1696936946304/work
 tqdm @ file:///croot/tqdm_1716395931952/work
-traitlets @ file:///croot/traitlets_1671143879854/work
+traitlets @ file:///croot/traitlets_1718227057033/work
 typing_extensions @ file:///croot/typing_extensions_1715268824938/work
 tzdata @ file:///croot/python-tzdata_1690578112552/work
 unicodedata2 @ file:///croot/unicodedata2_1713212950228/work
