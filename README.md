@@ -9,7 +9,7 @@
 ### Linux
 
 ### Windows
-Need to configure wsl (v2) and install Docker Desktop. The wsl distro should be configured to get access to the GPU (for example: https://www.intel.com/content/www/us/en/docs/oneapi/installation-guide-linux/2023-0/configure-wsl-2-for-gpu-workflows.html)
+Need to configure **WSL** (v2) and install Docker Desktop. More details: [here](./README_wsl2.md).
 
 ## Developer environment
 Using VS code developer containers. The installed extensions are listed in the devcontainer.json. The developer container (see Dockerfile) uses the miniconda base image from Microsoft. 
