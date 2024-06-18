@@ -7,8 +7,8 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
-	//"runArgs": ["--gpus=all"],
-	//"runArgs": ["--device=/dev/dxg -v /usr/lib/wsl:/usr/lib/wsl"],
+	//"runArgs": ["--privileged --device /dev/dri -v /dev/dri/by-path:/dev/dri/by-path"],
+	//"runArgs": ["--device /dev/dri"],
 	"customizations": {
 		"vscode": {
 			"extensions": [

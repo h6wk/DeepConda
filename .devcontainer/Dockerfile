@@ -10,6 +10,10 @@ RUN if [ -f "/tmp/conda-tmp/environment_3_9.yml" ]; then umask 0002 && /opt/cond
 # Additional packages for the jupiter notebook:
 RUN pip install watermark
 
+#RUN apt-get update && apt-get install -y intel-opencl-icd level-zero intel-level-zero-gpu
+
+#RUN pip install intel-extension-for-tensorflow
+
 # Dump the installed package list in the form of the requirements yaml file:
 #RUN pip freeze > /workspaces/DeepConda/requirements_3_9_PON.yml
 
