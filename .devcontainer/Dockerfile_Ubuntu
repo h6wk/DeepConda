@@ -1,0 +1,74 @@
+FROM ubuntu:noble
+
+RUN apt-get update && apt-get install -y git
+
+# Options for setup script
+ARG INSTALL_ZSH="true"
+ARG UPGRADE_PACKAGES="true"
+ARG USERNAME=vscode
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+
+
+#Minimal Ubuntu is a set of Ubuntu images designed for automated deployment at scale and made available across a range of cloud substrates. They use the optimised kernels and optimised boot process on their target compute substrate. These images have a greatly reduced default package set, without many convenience tools for interactive usage. They are much smaller, boot faster, and will require fewer security updates over time since they have fewer packages installed.
+#RUN yes | unminimize 2>&1
+# Install needed packages and setup non-root user
+COPY .devcontainer/install-scripts/common-debian.sh /tmp/install/
+RUN bash /tmp/install/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "${USER_UID}" "${USER_GID}" "${UPGRADE_PACKAGES}" "true" "true"
+#    && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
+
+
+
+
+
+
+
+
+
+
+
+#RUN mkdir `date '+%s'` && echo `pwd`
+
+#RUN apt-get update && apt-get -y install wget
+
+# Miniconda installer
+#RUN mkdir -p ~/miniconda3
+#RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+#RUN bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+
+# Additional dev packages
+#RUN apt-get install -y \
+#bash-completion \
+#git
+
+# Copy environment_3_9.yml (if found) to a temp location so we update the base environment. Also
+# copy "noop.txt" so the COPY instruction does not fail if no environment.yml exists.
+#COPY environment.yml* .devcontainer/noop.txt .devcontainer/environment_3_9.yml /tmp/conda-tmp/
+#RUN if [ -f "/tmp/conda-tmp/environment_3_9.yml" ]; then umask 0002 && /opt/conda/bin/conda env update -n base -f /tmp/conda-tmp/environment_3_9.yml; fi
+
+# Additional packages for the jupiter notebook:
+#RUN pip install watermark
+
+#RUN apt-get update && apt-get install -y intel-opencl-icd level-zero intel-level-zero-gpu
+
+#RUN pip install intel-extension-for-tensorflow
+
+# Dump the installed package list in the form of the requirements yaml file:
+#RUN pip freeze > /workspaces/DeepConda/requirements_3_9_PON.yml
+
+# NOTE: base environment was updated using the environment_3_9.yml
+
+# The followings not needed now, don't need additional environment for now
+#RUN conda env create -f /tmp/conda-tmp/environment_3_9.yml
+#RUN rm -rf /tmp/conda-tmp
+#RUN sudo chown -R vscode:vscode /opt/conda/envs/ai_python_3_9/
+#RUN conda init --all
+
+# [Optional] Uncomment to install a different version of Python than the default
+# RUN conda install -y python=3.6 \
+#     && pip install --no-cache-dir pipx \
+#     && pipx reinstall-all
+
+# [Optional] Uncomment this section to install additional OS packages.
+# RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+#     && apt-get -y install --no-install-recommends <your-package-list-here>

@@ -5,7 +5,7 @@
 	"name": "DeepConda (Miniconda, Python 3)",
 	"build": { 
 		"context": "..",
-		"dockerfile": "Dockerfile"
+		"dockerfile": "Dockerfile_Ubuntu"
 	},
 	//"runArgs": ["--privileged --device /dev/dri -v /dev/dri/by-path:/dev/dri/by-path"],
 	//"runArgs": ["--device /dev/dri"],
@@ -14,10 +14,11 @@
 			"extensions": [
 				"ms-azuretools.vscode-docker",
 				"Yseop.vscode-yseopml",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"eamodio.gitlens"
 			]
 		}
-	},
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -27,7 +28,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "python --version",
-	"postCreateCommand": "bash scripts/postCreateCommand.sh"
+	//"postCreateCommand": "bash scripts/postCreateCommand.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
