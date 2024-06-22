@@ -1,6 +1,5 @@
 FROM ubuntu:noble
 
-RUN apt-get update && apt-get install -y git
 
 # Options for setup script
 ARG INSTALL_ZSH="true"
