@@ -2,12 +2,13 @@ FROM ubuntu:noble
 
 
 # Options for setup script
-ARG INSTALL_ZSH="true"
+ARG INSTALL_ZSH="false"
 ARG UPGRADE_PACKAGES="true"
-ARG USERNAME=vscode
+#vscode
+ARG USERNAME=ubuntu
+#1001
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
-
 
 #Minimal Ubuntu is a set of Ubuntu images designed for automated deployment at scale and made available across a range of cloud substrates. They use the optimised kernels and optimised boot process on their target compute substrate. These images have a greatly reduced default package set, without many convenience tools for interactive usage. They are much smaller, boot faster, and will require fewer security updates over time since they have fewer packages installed.
 #RUN yes | unminimize 2>&1
@@ -16,19 +17,7 @@ COPY .devcontainer/install-scripts/common-debian.sh /tmp/install/
 RUN bash /tmp/install/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "${USER_UID}" "${USER_GID}" "${UPGRADE_PACKAGES}" "true" "true"
 #    && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
 
-
-
-
-
-
-
-
-
-
-
 #RUN mkdir `date '+%s'` && echo `pwd`
-
-#RUN apt-get update && apt-get -y install wget
 
 # Miniconda installer
 #RUN mkdir -p ~/miniconda3
